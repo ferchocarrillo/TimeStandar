@@ -100,7 +100,12 @@ background-image: URL("\theme\images\reloj2.gif");
                 height:500px;
                 color:#2596be;
                 border-radius: 0.75rem;
- };
+ }
+ .inicio{
+    border-radius: 0.75rem;
+    width: 450px;
+
+ }
 
         </style>
     </head>
@@ -121,7 +126,8 @@ background-image: URL("\theme\images\reloj2.gif");
                 <div class="title m-b-md">
 
 
-                    <img src="{{('\theme\images\logo_blanco.png')}}" alt="" width="650px">
+
+                    <img class="inicio" src="{{('\theme\images\INICIO.png')}}" alt="" >
 
                     <h4>Sistema de Gestion de Tiempos</h4>
                 </div>
