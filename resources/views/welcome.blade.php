@@ -102,8 +102,11 @@ background-image: URL("\theme\images\reloj2.gif");
                 border-radius: 0.75rem;
  }
  .inicio{
+    margin-top: 5rem;
+
     border-radius: 0.75rem;
     width: 450px;
+    margin-bottom: -3rem;
 
  }
 
