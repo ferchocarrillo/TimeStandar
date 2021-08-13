@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'TimeStandar') }}</title>
 
 
     <!-- Fonts -->
@@ -103,7 +103,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="{{asset('theme/images/icon/logo.jpg')}}" alt="CoolAdmin" />
+                            <img src="{{asset('\theme\images\movistar.jpg')}}" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">

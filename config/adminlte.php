@@ -16,7 +16,7 @@ return [
 
     'title' => '',
     'title_prefix' => '',
-    'title_postfix' => 'Registro de Tiempos',
+    'title_postfix' => 'Mark Time',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,13 +45,13 @@ return [
     |
     */
 
-    'logo' => '<b>Registro</b> de </b>Tiempos',
+    'logo' => '<b>Mark</b>Time',
     /*'logo_img' => 'theme\images\icon\icon-navidad.png',*///solo aplica para navidad
-    'logo_img' => 'theme\images\icon\logo-mini.png',
+    'logo_img' => 'theme\images\SISTEMA.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Registro de Tiempos',
+    'logo_img_alt' => 'Gestion de Tiempos',
 
     /*
     |--------------------------------------------------------------------------
