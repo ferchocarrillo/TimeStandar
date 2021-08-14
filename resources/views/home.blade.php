@@ -1,10 +1,10 @@
-@extends('adminlte::page')
+@extends('layouts.app')
 @section('content')
 <div class="pull-right">
     <div class="col-md-12">
         <div class="card" style="background-image: linear-gradient(#EAF2F8, #AAB7B8);">
         </body>
-        <form action="{{ url('/registro')}}" method="POST" enctype="multipart/form-data" class="form-horizontal">
+        <form action="{{ url('/ciclo')}}" method="POST" enctype="multipart/form-data" class="form-horizontal">
             {{csrf_field()}}
             <center style="background-image: linear-gradient(#EAF2F8, #AAB7B8);">
             <img src="\theme\images\isotipo-slogan.png" float="left" height="120" width="300">

@@ -66,7 +66,7 @@ background:  #F3F0D7;
                     @endcan
 
                     @can('haveaccess','registro.create')
-                    <li class="nav-item"> <a href="{{route('registro')}}" class="nav-link"> Registro de tiempos</a></li>
+                    <li class="nav-item"> <a href="{{url('/ciclo')}}" class="nav-link"> Registro de tiempos</a></li>
                 @endcan
                 </ul>
 

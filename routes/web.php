@@ -69,6 +69,7 @@ use Illuminate\Support\Facades\Gate;
     Route::resource('cicloreunionout',   CicloReunionOutController::class);
     Route::resource('historico',         HistoricoController::class);
     Route::resource('personalgeneral',   PersonalActivoController::class);
+    Route::resource('registro',             CicloController::class);
 
     Route::get('ciclo-list-excel', 'PersonalActivoController@exportExcel')->name('ciclo.excel');
     Route::get('/searchpersonalgeneral','PersonalActivoController@searchpersonalgeneral');
